@@ -1,0 +1,11 @@
+name: s3pathtesting
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - boto3
+  - python=3.12
+  - pip
+  - s3path
+  - smart_open
+
