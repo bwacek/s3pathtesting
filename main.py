@@ -4,8 +4,6 @@ import boto3
 from s3path import S3Path, register_configuration_parameter
 
 AWS_ENDPOINT_URL = "https://s3.us-west-004.backblazeb2.com"
-AWS_ACCESS_KEY_ID = "004d566b7b3841c0000000009"
-AWS_SECRET_ACCESS_KEY = "K0046OS4AbX+JWv5ivleXcJeteMtaRs"
 BUCKET_NAME = "s3pathtesting"
 
 pp = PrettyPrinter(indent=4)
